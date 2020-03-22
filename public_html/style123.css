@@ -1,0 +1,147 @@
+import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+.bg{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #eee;
+   
+   
+   
+    background-image: url(2bf540e5-8d20-428b-98ba-3bf618648efe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    height:120vh;
+    
+    
+}
+
+.bg1{
+    background-color:#FAEBD7; 
+   
+}
+.form-container{
+    border:1px solid black;
+    padding:100px 40px;
+    margin-top:20vh;
+    -webkit-box-shadow: -3px 14px 75px 9px rgba(0,0,0,0.75);
+-moz-box-shadow: -3px 14px 75px 9px rgba(0,0,0,0.75);
+box-shadow: -3px 14px 75px 9px rgba(0,0,0,0.75);
+
+   
+}
+
+
+.thumbnail img {
+    height:35%;
+    width:20%;
+    padding-top: 5%;
+    padding-left: 5%;
+    
+    
+}
+
+
+
+
+footer{
+    width: 100%;
+    background-color: brown;
+    padding: 30px;
+   
+}
+
+
+	
+
+    
+
+.conatiner1{
+    position: relative;
+    top:95%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    justify-items: center;
+}
+
+.conatiner1>div{
+    margin:0px 10px;
+    width:40px;
+    height:40px;
+    text-align:center;
+    background-color: #eee;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+
+}
+
+	
+
+div.fa-facebook{
+    background-color: #5252b8;
+}
+
+div.fa-instagram{
+    background-color:#3f729b ;
+}
+
+div.fa-twitter{
+    background-color:#00acee ;
+}
+
+div.fa-facebook:hover{
+    background:#fff;
+    color:#5252b8;
+    border:1px solid #5252b8;
+}
+
+div.fa-instagram:hover{
+    background:#fff;
+    color:#3f729b;
+    border:1px solid #3f729b;
+}
+
+div.fa-twitter:hover{
+    background:#fff;
+    color:#00acee;
+    border:1px solid #00acee;
+} 
+div.space{
+	word-spacing: 210px;
+}
+
+
+nav{
+    width:100%;
+    background:brown;
+    overflow: auto;
+}
+ul{
+    padding: 0;
+    margin:  0 0 0 50px ;
+    list-style: none;
+   
+}
+li{
+   float: left;
+   
+}
+nav a{
+    width: 130px;
+    display:block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: honeydew;
+    text-align: left;
+
+}
+nav a:hover{
+    background: rgb(99, 62, 62);
+    transition: 0.6s;
+    text-transform: uppercase;
+    color:white;
+
+}

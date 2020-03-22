@@ -1,0 +1,143 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 Feb, 2020, 10:50:08 PM
+    Author     : user
+*/
+
+.bg{
+    
+
+ background-color:#FAEBD7;
+}
+.menu-body {
+  max-width: 680px;
+  margin: 0 auto;
+  display: block;
+  color:black;
+ 
+}
+ 
+.menu-section {
+  margin-bottom: 80px;
+}
+ 
+.menu-section-title {
+  font-family: georgia;
+  font-size: 50px;
+  display: block;
+  font-weight:normal;
+  margin: 20px 0;
+  text-align: Center;
+}
+ 
+.menu-item {
+  margin: 35px 0;
+  font-size: 18px;
+     
+}
+ 
+.menu-item-name{
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 2px dotted rgb(213, 213, 213);
+  font-style: italic;
+  color: rgba(107, 22, 29, 0.932);
+}
+ 
+.menu-item-description {
+  font-style: italic;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+ 
+.menu-item-price{
+  float:right;
+  position:absolute;
+  font-weight: bold;
+  font-family: arial;
+  margin-top:-22px;
+  display: inline-block;
+  right:55%;
+  font-style: italic;
+  color: rgba(107, 22, 29, 0.932);
+}
+
+.box
+{
+   position:relative;
+   float:right;
+   transform: translate(-50%,-50%);
+   left:5%;
+    display: inline-block;
+    margin-top: -22px;
+}
+ body{
+        margin:auto;
+        padding:0;
+        background-size: cover;
+    }
+    nav{
+        width:100%;
+        background:rgb(114, 108, 108);
+        overflow: auto;
+    }
+    ul{
+        padding: 0;
+        margin:  0 0 0 50px ;
+        list-style: none;
+    }
+    li{
+       float: left;
+    }
+    nav a{
+        width: 110px;
+        display:block;
+        padding: 20px 15px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: honeydew;
+        text-align: left;
+       word-spacing:normal
+    }
+    nav a:hover{
+        background: rgb(99, 62, 62);
+        transition: 0.6s;
+        text-transform: uppercase;
+
+    }
+    
+
+
+
+    .footer{
+    padding:0px 0;
+    background-color: grey;
+    color:black;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+   
+}
+.containe1{
+    position:absolute;
+    top:95%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    
+}
+.containe1>div
+{
+    margin:0px 10px;
+    width:40px;
+    height:40px;
+    text-align:center;
+    background-color:#eee;
+    line-height:40px;
+    border-radius: 50%;
+    color:#ffffff;
+}
