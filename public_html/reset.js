@@ -5,7 +5,7 @@ function reset(){
 		firebase.auth().sendPasswordResetEmail(email).then(
 		function()
 		{
-			window.alert("mail is sent to"+ email);	
+			window.alert("mail is sent to "+ email);	
 		}).catch(function(error)
 		{
 			var errorCode=error.code;
